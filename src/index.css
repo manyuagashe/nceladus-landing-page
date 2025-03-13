@@ -120,7 +120,7 @@
   }
   
   .heading {
-    @apply font-garamond tracking-wide font-normal; /* Changed from font-bold to font-normal and added tracking-wide */
+    @apply font-garamond tracking-wider font-light; /* Changed to font-light and increased tracking */
   }
   
   .link-hover {
@@ -132,11 +132,11 @@
   }
   
   .btn-primary {
-    @apply bg-nceladus-dark text-white px-6 py-3 rounded-md font-medium transition-all duration-300 border border-nceladus-light hover:bg-nceladus-darkest hover:border-white shadow-md;
+    @apply bg-nceladus-dark text-white px-6 py-3 rounded-md font-light transition-all duration-300 border border-nceladus-light hover:bg-nceladus-darkest hover:border-white shadow-md; /* Changed to font-light */
   }
   
   .btn-secondary {
-    @apply bg-nceladus-light text-nceladus-dark px-6 py-3 rounded-md font-medium transition-all duration-300 hover:bg-white shadow-md;
+    @apply bg-nceladus-light text-nceladus-dark px-6 py-3 rounded-md font-light transition-all duration-300 hover:bg-white shadow-md; /* Changed to font-light */
   }
   
   .shimmer {
