@@ -1,6 +1,5 @@
-
 import React, { useEffect, useRef } from 'react';
-import { Users, Brain, PaintBrush } from 'lucide-react';
+import { Users, Brain, Paintbrush } from 'lucide-react';
 
 const Network = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -35,12 +34,10 @@ const Network = () => {
 
   return (
     <section id="network" ref={sectionRef} className="py-24 px-6 md:px-12 bg-gradient-to-b from-nceladus-darkest to-nceladus-dark relative">
-      {/* Background elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-0 left-0 w-full h-20 bg-gradient-to-b from-nceladus-dark to-transparent"></div>
         <div className="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-t from-nceladus-dark to-transparent"></div>
         
-        {/* Grid pattern */}
         <div className="absolute inset-0 opacity-5">
           <div className="h-full w-full" style={{ 
             backgroundImage: 'linear-gradient(#fff 1px, transparent 1px), linear-gradient(to right, #fff 1px, transparent 1px)',
@@ -64,11 +61,10 @@ const Network = () => {
         </div>
         
         <div className="grid md:grid-cols-3 gap-8">
-          {/* Designer Card */}
           <div className="glass-card p-8 animate-on-scroll">
             <div className="mb-6">
               <div className="w-14 h-14 bg-nceladus-light/10 rounded-lg flex items-center justify-center mb-4">
-                <PaintBrush size={28} className="text-nceladus-light" />
+                <Paintbrush size={28} className="text-nceladus-light" />
               </div>
               <h3 className="text-2xl font-garamond font-bold mb-2">Student Designers</h3>
               <p className="text-white/70">
@@ -86,7 +82,6 @@ const Network = () => {
             </ul>
           </div>
           
-          {/* Founders Card */}
           <div className="glass-card p-8 animate-on-scroll">
             <div className="mb-6">
               <div className="w-14 h-14 bg-nceladus-light/10 rounded-lg flex items-center justify-center mb-4">
@@ -108,7 +103,6 @@ const Network = () => {
             </ul>
           </div>
           
-          {/* AI Focus Card */}
           <div className="glass-card p-8 animate-on-scroll">
             <div className="mb-6">
               <div className="w-14 h-14 bg-nceladus-light/10 rounded-lg flex items-center justify-center mb-4">
