@@ -120,7 +120,7 @@
   }
   
   .heading {
-    @apply font-garamond tracking-tight;
+    @apply font-garamond tracking-wide font-normal; /* Changed from font-bold to font-normal and added tracking-wide */
   }
   
   .link-hover {
