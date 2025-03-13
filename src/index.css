@@ -1,3 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+  font-family: 'AppleGaramond';
+  src: url('/assets/AppleGaramond.woff2') format('woff2'),
+       url('/assets/AppleGaramond.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -35,19 +47,12 @@
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
@@ -96,6 +101,45 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-nceladus-dark text-white font-sans;
+    overflow-x: hidden;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/5 backdrop-blur-md border border-white/10 rounded-xl shadow-lg;
+  }
+  
+  .accent-text {
+    @apply text-nceladus-light font-garamond;
+  }
+  
+  .heading {
+    @apply font-garamond tracking-tight;
+  }
+  
+  .link-hover {
+    @apply relative inline-block after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-nceladus-accent after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left;
+  }
+  
+  .animate-on-scroll {
+    @apply opacity-0;
+  }
+  
+  .btn-primary {
+    @apply bg-nceladus-dark text-white px-6 py-3 rounded-md font-medium transition-all duration-300 border border-nceladus-light hover:bg-nceladus-darkest hover:border-white shadow-md;
+  }
+  
+  .btn-secondary {
+    @apply bg-nceladus-light text-nceladus-dark px-6 py-3 rounded-md font-medium transition-all duration-300 hover:bg-white shadow-md;
+  }
+  
+  .shimmer {
+    @apply bg-gradient-to-r from-transparent via-white/10 to-transparent bg-[length:500px_100%] animate-shimmer;
   }
 }
