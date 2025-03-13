@@ -69,7 +69,7 @@ const Hero = () => {
           <span className="text-nceladus-light font-medium">Connect. Create. Collaborate.</span>
         </div>
         
-        <h1 className="heading text-5xl md:text-7xl font-bold mb-6 animate-on-scroll">
+        <h1 className="heading text-5xl md:text-7xl mb-6 animate-on-scroll" style={{ fontWeight: 400 }}>
           Accelerating Student Creativity 
           <span className="block text-nceladus-light">to the Stars</span>
         </h1>

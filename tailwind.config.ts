@@ -76,7 +76,7 @@ export default {
 				sm: 'calc(var(--radius) - 4px)'
 			},
 			fontFamily: {
-				garamond: ['AppleGaramond', 'Garamond', 'serif'],
+				garamond: ['AppleGaramond', 'Garamond', 'Times New Roman', 'serif'],
 				sans: ['Inter', 'sans-serif'],
 			},
 			keyframes: {
