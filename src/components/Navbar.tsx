@@ -30,7 +30,7 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <a href="#" className="flex items-center space-x-2">
-          <span className="text-2xl font-helvetica font-light text-white tracking-wide">nceladus</span>
+          <span className="text-2xl font-helvetica font-light text-white tracking-wider">nceladus</span>
         </a>
 
         {/* Desktop Navigation */}

@@ -14,17 +14,17 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
           <div>
-            <h2 className="heading text-3xl md:text-4xl font-bold mb-4">
+            <h2 className="heading text-3xl md:text-4xl font-light mb-4 tracking-wider">
               Join the Nceladus Network
             </h2>
-            <p className="text-white/70 mb-6">
+            <p className="text-white/70 mb-6 font-light">
               Be part of a community shaping the future at the intersection of design, 
               entrepreneurship, and artificial intelligence.
             </p>
             
             <form className="space-y-4 max-w-md">
               <div>
-                <label htmlFor="email" className="block text-sm font-medium text-white/80 mb-1">Email</label>
+                <label htmlFor="email" className="block text-sm font-light text-white/80 mb-1">Email</label>
                 <input 
                   type="email" 
                   id="email" 
@@ -34,7 +34,7 @@ const Footer = () => {
               </div>
               
               <div>
-                <label className="block text-sm font-medium text-white/80 mb-1">I am a:</label>
+                <label className="block text-sm font-light text-white/80 mb-1">I am a:</label>
                 <div className="grid grid-cols-2 gap-3">
                   <div className="flex items-center">
                     <input 
@@ -45,7 +45,7 @@ const Footer = () => {
                     />
                     <label 
                       htmlFor="designer" 
-                      className="w-full p-3 bg-white/5 border border-white/10 rounded-md cursor-pointer peer-checked:bg-nceladus-light/20 peer-checked:border-nceladus-light flex items-center justify-center"
+                      className="w-full p-3 bg-white/5 border border-white/10 rounded-md cursor-pointer peer-checked:bg-nceladus-light/20 peer-checked:border-nceladus-light flex items-center justify-center font-light"
                     >
                       Designer
                     </label>
@@ -59,7 +59,7 @@ const Footer = () => {
                     />
                     <label 
                       htmlFor="founder" 
-                      className="w-full p-3 bg-white/5 border border-white/10 rounded-md cursor-pointer peer-checked:bg-nceladus-light/20 peer-checked:border-nceladus-light flex items-center justify-center"
+                      className="w-full p-3 bg-white/5 border border-white/10 rounded-md cursor-pointer peer-checked:bg-nceladus-light/20 peer-checked:border-nceladus-light flex items-center justify-center font-light"
                     >
                       Founder
                     </label>
@@ -71,7 +71,7 @@ const Footer = () => {
                 Request Early Access
               </button>
               
-              <p className="text-xs text-white/50 text-center">
+              <p className="text-xs text-white/50 text-center font-light">
                 We prioritize connections between students and early-career founders. 
                 We'll review your application and get back to you soon.
               </p>
@@ -82,31 +82,31 @@ const Footer = () => {
             <div className="absolute -top-4 -right-4 w-8 h-8 rounded-full border border-nceladus-light/30"></div>
             <div className="absolute -bottom-4 -left-4 w-6 h-6 rounded-full border border-nceladus-light/20"></div>
             
-            <h3 className="text-2xl font-garamond font-bold mb-4 flex items-center">
+            <h3 className="text-2xl font-light mb-4 flex items-center tracking-wider">
               <Heart size={20} className="text-nceladus-light mr-2" />
               What Our Members Say
             </h3>
             
             <div className="space-y-6">
               <div className="p-4 bg-white/5 rounded-lg">
-                <p className="italic text-white/80 mb-3">
+                <p className="italic text-white/80 mb-3 font-light">
                   "Nceladus opened doors to collaborations I never thought possible as a student designer. 
                   I'm now working on an AI project that truly values my creative input."
                 </p>
                 <div className="text-right">
-                  <p className="text-nceladus-light font-medium">Jamie Wilson</p>
-                  <p className="text-sm text-white/50">Interaction Designer, RISD</p>
+                  <p className="text-nceladus-light font-light">Jamie Wilson</p>
+                  <p className="text-sm text-white/50 font-light">Interaction Designer, RISD</p>
                 </div>
               </div>
               
               <div className="p-4 bg-white/5 rounded-lg">
-                <p className="italic text-white/80 mb-3">
+                <p className="italic text-white/80 mb-3 font-light">
                   "Finding the right design talent was a game-changer for our startup. 
                   The student designers we connected with through Nceladus brought fresh perspectives we needed."
                 </p>
                 <div className="text-right">
-                  <p className="text-nceladus-light font-medium">Ethan Rivera</p>
-                  <p className="text-sm text-white/50">Co-founder, Neuron AI</p>
+                  <p className="text-nceladus-light font-light">Ethan Rivera</p>
+                  <p className="text-sm text-white/50 font-light">Co-founder, Neuron AI</p>
                 </div>
               </div>
             </div>
@@ -115,8 +115,8 @@ const Footer = () => {
         
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <span className="text-2xl font-garamond text-white">nceladus</span>
-            <p className="text-sm text-white/50 mt-1">
+            <span className="text-2xl font-light text-white tracking-wider">nceladus</span>
+            <p className="text-sm text-white/50 mt-1 font-light">
               Accelerating student creativity to the stars.
             </p>
           </div>
@@ -126,7 +126,7 @@ const Footer = () => {
               <a 
                 key={item} 
                 href="#" 
-                className="text-white/70 hover:text-nceladus-light transition-colors"
+                className="text-white/70 hover:text-nceladus-light transition-colors font-light"
               >
                 {item}
               </a>
@@ -134,7 +134,7 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="text-center text-white/50 text-sm mt-8">
+        <div className="text-center text-white/50 text-sm mt-8 font-light">
           &copy; {new Date().getFullYear()} Nceladus. All rights reserved.
         </div>
       </div>

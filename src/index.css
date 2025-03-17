@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&display=swap');
 
@@ -111,8 +112,13 @@
   }
   
   .heading {
-    @apply font-helvetica tracking-normal font-light leading-tight; 
-    letter-spacing: 0.01em; 
+    @apply font-helvetica font-light tracking-wide leading-tight; 
+    letter-spacing: -0.01em; 
+  }
+  
+  .title {
+    @apply font-helvetica font-light tracking-wider;
+    letter-spacing: 0.02em;
   }
   
   .link-hover {

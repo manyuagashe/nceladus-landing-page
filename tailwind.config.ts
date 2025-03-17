@@ -79,6 +79,12 @@ export default {
 				helvetica: ['Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
 				sans: ['Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
 			},
+			fontWeight: {
+				'light': '300',
+				'normal': '400',
+				'medium': '500',
+				'semi': '600',
+			},
 			keyframes: {
 				'accordion-down': {
 					from: { height: '0' },
