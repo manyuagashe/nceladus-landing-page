@@ -70,12 +70,12 @@ const Hero = () => {
         </div>
         
         <h1 className="heading text-5xl md:text-7xl mb-6 animate-on-scroll font-helvetica font-light">
-          Accelerating Student Creativity 
-          <span className="block text-nceladus-light">to the Stars</span>
+          Accelerating student creativity 
+          <span className="block text-nceladus-light">to the stars</span>
         </h1>
         
         <p className="text-lg md:text-xl text-white/80 mb-10 max-w-2xl mx-auto animate-on-scroll font-helvetica font-light">
-          Connecting talented student designers with innovative founders 
+          Connecting talented student designers with student founders 
           to shape the future of AI and beyond.
         </p>
         
