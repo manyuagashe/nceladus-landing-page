@@ -1,14 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-
-@font-face {
-  font-family: 'AppleGaramond';
-  src: url('/assets/AppleGaramond.woff2') format('woff2'),
-       url('/assets/AppleGaramond.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -116,12 +108,12 @@
   }
   
   .accent-text {
-    @apply text-nceladus-light font-garamond;
+    @apply text-nceladus-light font-eb-garamond;
   }
   
   .heading {
-    @apply font-garamond tracking-wide font-normal leading-tight; /* Improved spacing and leading */
-    letter-spacing: 0.01em; /* Fine-tuned letter spacing */
+    @apply font-eb-garamond tracking-wide font-normal leading-tight; 
+    letter-spacing: 0.02em; 
   }
   
   .link-hover {

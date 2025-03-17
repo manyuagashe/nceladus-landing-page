@@ -47,7 +47,7 @@ const Mission = () => {
             <Rocket size={20} className="text-nceladus-light" />
             <span className="text-nceladus-light uppercase tracking-wider text-sm font-medium">Our Mission</span>
           </div>
-          <h2 className="heading text-4xl md:text-5xl font-bold mb-6 animate-on-scroll">
+          <h2 className="heading text-4xl md:text-5xl mb-6 animate-on-scroll">
             Creating the Future Through <br /> Student Collaboration
           </h2>
           <p className="text-lg text-white/70 max-w-2xl mx-auto animate-on-scroll">
@@ -64,7 +64,7 @@ const Mission = () => {
                     <Star size={24} className="text-nceladus-light" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-garamond font-semibold mb-2">Accelerating Student Creativity</h3>
+                    <h3 className="text-xl font-eb-garamond mb-2">Accelerating Student Creativity</h3>
                     <p className="text-white/70">
                       We believe in the power of student innovation and creativity. 
                       Our platform provides the resources, connections, and opportunities
@@ -80,7 +80,7 @@ const Mission = () => {
                     <Sparkles size={24} className="text-nceladus-light" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-garamond font-semibold mb-2">Exploring the AI Frontier</h3>
+                    <h3 className="text-xl font-eb-garamond mb-2">Exploring the AI Frontier</h3>
                     <p className="text-white/70">
                       As we venture into the AI era, we're focused on nurturing projects 
                       that explore the intersection of human creativity and artificial intelligence.
@@ -105,7 +105,7 @@ const Mission = () => {
                       <Star size={32} className="text-white" />
                     </div>
                   </div>
-                  <h3 className="text-2xl font-garamond font-bold mb-2">Creative Connection</h3>
+                  <h3 className="text-2xl font-eb-garamond mb-2">Creative Connection</h3>
                   <p className="text-white/70">
                     Where student creativity meets
                     entrepreneurial vision
