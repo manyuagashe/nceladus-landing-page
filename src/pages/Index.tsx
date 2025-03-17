@@ -10,6 +10,8 @@ import Footer from '@/components/Footer';
 const Index = () => {
   // Initialize animation observers
   useEffect(() => {
+    console.log('Index page mounted');
+    
     // Function to handle smooth scrolling for navigation links
     const handleNavLinkClick = (e: MouseEvent) => {
       const target = e.target as HTMLElement;
