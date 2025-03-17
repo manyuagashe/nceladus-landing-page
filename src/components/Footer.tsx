@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Heart } from 'lucide-react';
 
@@ -15,7 +14,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
           <div>
             <h2 className="heading text-3xl md:text-4xl font-light mb-4 tracking-wider">
-              Join the Nceladus Network
+              Join the nceladus Network
             </h2>
             <p className="text-white/70 mb-6 font-light">
               Be part of a community shaping the future at the intersection of design, 
@@ -90,7 +89,7 @@ const Footer = () => {
             <div className="space-y-6">
               <div className="p-4 bg-white/5 rounded-lg">
                 <p className="italic text-white/80 mb-3 font-light">
-                  "Nceladus opened doors to collaborations I never thought possible as a student designer. 
+                  "nceladus opened doors to collaborations I never thought possible as a student designer. 
                   I'm now working on an AI project that truly values my creative input."
                 </p>
                 <div className="text-right">
@@ -102,7 +101,7 @@ const Footer = () => {
               <div className="p-4 bg-white/5 rounded-lg">
                 <p className="italic text-white/80 mb-3 font-light">
                   "Finding the right design talent was a game-changer for our startup. 
-                  The student designers we connected with through Nceladus brought fresh perspectives we needed."
+                  The student designers we connected with through nceladus brought fresh perspectives we needed."
                 </p>
                 <div className="text-right">
                   <p className="text-nceladus-light font-light">Ethan Rivera</p>
@@ -135,7 +134,7 @@ const Footer = () => {
         </div>
         
         <div className="text-center text-white/50 text-sm mt-8 font-light">
-          &copy; {new Date().getFullYear()} Nceladus. All rights reserved.
+          &copy; {new Date().getFullYear()} nceladus. All rights reserved.
         </div>
       </div>
     </footer>

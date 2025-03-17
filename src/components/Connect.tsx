@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef, useState } from 'react';
 import { Heart, ArrowRight, Check } from 'lucide-react';
 
@@ -38,7 +37,7 @@ const Connect = () => {
     {
       name: "Alex Chen",
       title: "UI/UX Designer",
-      story: "Nceladus connected me with an amazing AI startup where I could apply my design skills to solve real problems.",
+      story: "nceladus connected me with an amazing AI startup where I could apply my design skills to solve real problems.",
       school: "Rhode Island School of Design"
     },
     {
@@ -53,7 +52,7 @@ const Connect = () => {
     {
       name: "Jason Park",
       title: "Founder, NeuralCanvas",
-      story: "Finding the right design talent through Nceladus transformed our user experience and helped us secure our seed round.",
+      story: "Finding the right design talent through nceladus transformed our user experience and helped us secure our seed round.",
       school: "Stanford University"
     },
     {
@@ -82,7 +81,7 @@ const Connect = () => {
             Making Meaningful Connections
           </h2>
           <p className="text-lg text-white/70 max-w-2xl mx-auto animate-on-scroll">
-            Discover how Nceladus bridges the gap between creative talent and innovative ventures.
+            Discover how nceladus bridges the gap between creative talent and innovative ventures.
           </p>
         </div>
         

@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from 'react';
 import { Star } from 'lucide-react';
 
@@ -60,6 +59,12 @@ const Hero = () => {
         </div>
         <div className="absolute bottom-1/4 left-[30%] text-nceladus-light/20 parallax animate-float" style={{ animationDelay: '2s' }} data-speed="0.04">
           <Star size={20} />
+        </div>
+        <div className="absolute top-1/4 right-[25%] text-nceladus-light/25 parallax animate-float" style={{ animationDelay: '1.5s' }} data-speed="0.08">
+          <Star size={18} />
+        </div>
+        <div className="absolute bottom-1/3 right-[35%] text-nceladus-light/35 parallax animate-float" style={{ animationDelay: '2.5s' }} data-speed="0.05">
+          <Star size={22} />
         </div>
       </div>
 
