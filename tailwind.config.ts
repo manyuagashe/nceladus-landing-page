@@ -76,8 +76,8 @@ export default {
 				sm: 'calc(var(--radius) - 4px)'
 			},
 			fontFamily: {
-				'eb-garamond': ['"EB Garamond"', 'Garamond', 'Times New Roman', 'serif'],
-				sans: ['Inter', 'sans-serif'],
+				helvetica: ['Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+				sans: ['Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
 			},
 			keyframes: {
 				'accordion-down': {

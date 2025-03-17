@@ -66,15 +66,15 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 max-w-4xl mx-auto text-center">
         <div className="inline-block mb-4 px-4 py-1 rounded-full bg-white/5 border border-white/10 animate-on-scroll">
-          <span className="text-nceladus-light font-medium">Connect. Create. Collaborate.</span>
+          <span className="text-nceladus-light font-medium font-helvetica">Connect. Create. Collaborate.</span>
         </div>
         
-        <h1 className="heading text-5xl md:text-7xl mb-6 animate-on-scroll" style={{ fontWeight: 400 }}>
+        <h1 className="heading text-5xl md:text-7xl mb-6 animate-on-scroll font-helvetica font-light">
           Accelerating Student Creativity 
           <span className="block text-nceladus-light">to the Stars</span>
         </h1>
         
-        <p className="text-lg md:text-xl text-white/80 mb-10 max-w-2xl mx-auto animate-on-scroll">
+        <p className="text-lg md:text-xl text-white/80 mb-10 max-w-2xl mx-auto animate-on-scroll font-helvetica font-light">
           Connecting talented student designers with innovative founders 
           to shape the future of AI and beyond.
         </p>

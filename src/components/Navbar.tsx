@@ -30,7 +30,7 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <a href="#" className="flex items-center space-x-2">
-          <span className="text-2xl font-eb-garamond text-white tracking-wider">nceladus</span>
+          <span className="text-2xl font-helvetica font-light text-white tracking-wide">nceladus</span>
         </a>
 
         {/* Desktop Navigation */}
@@ -39,7 +39,7 @@ const Navbar = () => {
             <a
               key={item}
               href={`#${item.toLowerCase()}`}
-              className="text-white hover:text-nceladus-light transition-colors duration-300 link-hover"
+              className="text-white hover:text-nceladus-light transition-colors duration-300 link-hover font-helvetica font-light"
             >
               {item}
             </a>
@@ -67,7 +67,7 @@ const Navbar = () => {
             <a
               key={item}
               href={`#${item.toLowerCase()}`}
-              className="text-xl text-white hover:text-nceladus-light transition-colors duration-300 py-2"
+              className="text-xl text-white hover:text-nceladus-light transition-colors duration-300 py-2 font-helvetica font-light"
               onClick={() => setMobileMenuOpen(false)}
             >
               {item}

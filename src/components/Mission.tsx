@@ -45,12 +45,12 @@ const Mission = () => {
         <div className="text-center mb-16">
           <div className="inline-flex items-center justify-center space-x-2 mb-4 animate-on-scroll">
             <Rocket size={20} className="text-nceladus-light" />
-            <span className="text-nceladus-light uppercase tracking-wider text-sm font-medium">Our Mission</span>
+            <span className="text-nceladus-light uppercase tracking-wider text-sm font-medium font-helvetica">Our Mission</span>
           </div>
-          <h2 className="heading text-4xl md:text-5xl mb-6 animate-on-scroll">
+          <h2 className="heading text-4xl md:text-5xl mb-6 animate-on-scroll font-helvetica font-light">
             Creating the Future Through <br /> Student Collaboration
           </h2>
-          <p className="text-lg text-white/70 max-w-2xl mx-auto animate-on-scroll">
+          <p className="text-lg text-white/70 max-w-2xl mx-auto animate-on-scroll font-helvetica font-light">
             We're building a bridge between visionary student founders and talented creative minds.
           </p>
         </div>
@@ -64,8 +64,8 @@ const Mission = () => {
                     <Star size={24} className="text-nceladus-light" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-eb-garamond mb-2">Accelerating Student Creativity</h3>
-                    <p className="text-white/70">
+                    <h3 className="text-xl font-helvetica font-light mb-2">Accelerating Student Creativity</h3>
+                    <p className="text-white/70 font-helvetica font-light">
                       We believe in the power of student innovation and creativity. 
                       Our platform provides the resources, connections, and opportunities
                       for students to turn their creative visions into reality.
@@ -80,8 +80,8 @@ const Mission = () => {
                     <Sparkles size={24} className="text-nceladus-light" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-eb-garamond mb-2">Exploring the AI Frontier</h3>
-                    <p className="text-white/70">
+                    <h3 className="text-xl font-helvetica font-light mb-2">Exploring the AI Frontier</h3>
+                    <p className="text-white/70 font-helvetica font-light">
                       As we venture into the AI era, we're focused on nurturing projects 
                       that explore the intersection of human creativity and artificial intelligence.
                       Together, we're designing the future.
@@ -105,8 +105,8 @@ const Mission = () => {
                       <Star size={32} className="text-white" />
                     </div>
                   </div>
-                  <h3 className="text-2xl font-eb-garamond mb-2">Creative Connection</h3>
-                  <p className="text-white/70">
+                  <h3 className="text-2xl font-helvetica font-light mb-2">Creative Connection</h3>
+                  <p className="text-white/70 font-helvetica font-light">
                     Where student creativity meets
                     entrepreneurial vision
                   </p>
