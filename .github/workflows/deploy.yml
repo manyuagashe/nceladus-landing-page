@@ -29,10 +29,20 @@ jobs:
       - name: Build Project
         run: npm run build  # Change to `yarn build` if using Yarn
 
-      - name: Upload GitHub Pages artifact
-        uses: actions/upload-pages-artifact@v4  # ✅ Updated to v4
+      - name: Upload build artifact (for caching or other workflows)
+        uses: actions/upload-artifact@v4  # ✅ Updated to v4
         with:
-          path: build  # Change to `dist` for Vue/Vite
+          name: site-build
+          path: build  # Change to `dist` if using Vue/Vite
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v2  # ✅ Correct action for Pages
+        with:
+          path: build  # Change to `dist` if using Vue/Vite
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v2  # ✅ Correct action for Pages
+
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4  # ✅ Updated to v4
