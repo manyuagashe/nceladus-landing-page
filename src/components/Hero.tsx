@@ -194,25 +194,27 @@ const Hero = () => {
         </a>
       </div>
       
-      <style jsx>{`
-        @keyframes shooting-star {
-          0% {
-            transform: translate(0, 0) rotate(30deg);
-            opacity: 0;
+      <style>
+        {`
+          @keyframes shooting-star {
+            0% {
+              transform: translate(0, 0) rotate(30deg);
+              opacity: 0;
+            }
+            5% {
+              opacity: 1;
+            }
+            20% {
+              transform: translate(-300px, 300px) rotate(30deg);
+              opacity: 0;
+            }
+            100% {
+              transform: translate(-300px, 300px) rotate(30deg);
+              opacity: 0;
+            }
           }
-          5% {
-            opacity: 1;
-          }
-          20% {
-            transform: translate(-300px, 300px) rotate(30deg);
-            opacity: 0;
-          }
-          100% {
-            transform: translate(-300px, 300px) rotate(30deg);
-            opacity: 0;
-          }
-        }
-      `}</style>
+        `}
+      </style>
     </div>
   );
 };
